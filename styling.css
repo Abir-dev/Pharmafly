@@ -1,0 +1,461 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    font-family: 'Poppins',sans-serif;
+  height: 100%;
+  width: 100%;
+    line-height: 1.6;
+background-color: black;
+    color: #caf0f8;  
+}
+header {
+    background: conic-gradient(45deg, black,white,black);
+    height: 50vh;
+    color: #CAF0F8; 
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+}
+
+.introduction{
+    background-image: url('drone3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    position: center;
+    height: 100px;
+    align-content: center;
+    width: 150px;
+    z-index: 1000;
+    padding-top: 9px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #CAF0F8; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #00B4D8;  
+    border-radius: 5px;
+}
+.welcome-section {
+    background-image: url('drone.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #CAF0F8;
+}
+
+#about{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #CAF0F8;
+}
+h1, h2, h3 {
+    margin: 1rem 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #48CAE4; 
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding-left: 20px;
+    color: #ADE8F4;  
+}
+
+h1.animated-text, h2.animated-text {
+    animation: textGlow 1.5s infinite alternate;
+}
+
+@keyframes textGlow {
+    from {
+        text-shadow: 0 0 10px #48CAE4;  
+    }
+    to {
+        text-shadow: 0 0 20px #48CAE4;  
+    }
+}
+
+
+.fit-picture {
+    position:cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#features { background-image: url('drone2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 4rem;
+    margin-bottom: rem;
+    transition: transform 0.3s ease;
+    height:100%;
+    align-content: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    .service-image{
+        height:400px;
+        width:400px;
+        border-radius: 200%;
+    }
+}
+
+.service { 
+    height: 100vh;
+    padding: 4rem;
+    border: 2px solid #00B4D8; 
+    background: conic-gradient(45deg, black,white,black);
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+    justify-content: center;
+  
+}
+
+.service:hover {
+    transform: scale(1.05);
+    background-color:#00B4D8;  
+}
+
+#hours{background-image: url('time.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    color: #CAF0F8;
+}
+
+button {
+    padding: 0.75rem;
+    background-color: #00B4D8; 
+    color: #03045E; 
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0096C7;  
+}
+
+
+.button {
+    padding: 0.75rem;
+    border: 1px solid #00B4D8; 
+    background-color:#00B4D8; 
+    color:#03045E;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0096C7;  
+}
+#reviews{
+    max-height: 100vh;
+}
+#reviews{
+    background-image: url('drone5.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #CAF0F8;
+}
+.review{
+    padding: 1rem;
+    border: 1px solid #00B4D8; 
+    background: conic-gradient(45deg, black,white,black);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-image: url('drone.jpg');
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #CAF0F8;
+text-align: center;
+padding: 1rem;
+position: static;
+box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+color: #CAF0F8; 
+}
+
+.whatsapp-widget {
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 50px;
+height: 50px;
+}
+
+.whatsapp-widget img {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+transition: transform 0.3s;
+}
+
+.whatsapp-widget img:hover {
+transform: scale(1.1);
+}
+
+.animated-button {
+position: static;
+overflow: hidden;
+z-index: 1;
+background-color: #00B4D8; 
+color: #CAF0F8; 
+}
+
+.animated-button::before {
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+width: 300%;
+height: 300%;
+background: rgba(0, 180, 216, 0.15);
+transform: translate(-50%, -50%) rotate(45deg);
+transition: all 0.75s ease;
+z-index: -1;
+}
+
+.animated-button:hover::before {
+width: 0;
+height: 0;
+}
+
+.service-image {
+height: 100%;
+width: 100%;
+padding: 2rem;
+border-radius: 10px;
+}
+
+#services {
+height: 100%;
+width: 96%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+#intro {
+height: 100%;
+width: auto;
+}
+
+#contact {
+height: 100%;
+width: auto;
+}
+.animated-button {
+animation: buttonPulse 2s infinite;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: conic-gradient(45deg, black,white,black);
+}
+#contact{
+    background-image: url('drone6.jpg');
+    background-size:cover;
+    background-position:center;
+}
+.contact-section {
+    width: 40%;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.form-section {
+    width: 50%;
+}
+
+.form-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    width:90%;
+    max-width: 450px;
+    min-width: 350px;
+    background: conic-gradient();
+    padding:55px;
+    text-align:center;
+    border-radius: 10px;
+    box-shadow: -2px 2px 15px rgba(0, 180, 216, 0.5);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.input-field{
+    background: conic-gradient();
+    margin: 15px 0;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+}
+.input-field input{
+    width:100%;
+    background: transparent;
+    border: 1px;
+    outline: 0;
+    padding:18px 15px;
+}
+.input-field i{
+   margin-left: 15px;
+   color: #CAF0F8;
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+form p a{
+    text-decoration: none;
+    color: #ADE8F4;
+}
+.btn-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button{
+flex-basis: 48%;
+}
+button.disable{
+    background: #eaeaea;
+}
+/*
+.sign-in-form, .sign-up-form {
+    width: 48%;
+    background: conic-;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-form h3, .sign-up-form h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #caf0f8;
+}
+
+.sign-in-form form, .sign-up-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-form input, .sign-up-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sign-in-form button, .sign-up-form button {
+    padding: 10px;
+    background-color: #00B4D8; 
+    color: #03045E; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in-form button:hover, .sign-up-form button:hover {
+    background-color: #0096C7;  
+}
+
+.sign-up-form label {
+    font-size: 14px;
+}
+
+.sign-up-form a {
+    color: #caf0f8;
+    text-decoration: none;
+}
+
+.sign-up-form a:hover {
+    text-decoration: underline;
+}
